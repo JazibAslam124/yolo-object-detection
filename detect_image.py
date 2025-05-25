@@ -5,7 +5,7 @@ import cv2
 model = YOLO("yolov8-weights/yolov8n.pt")
 
 # Load image
-image = cv2.imread("images/sample.jpg")
+image = cv2.imread("images/sample2.jpg")
 
 # Run detection
 results = model(image)
